@@ -9,12 +9,13 @@
 //@depends vendors/bootstrap/bootstrap-dropdown.js
 //@depends vendors/bootstrap/bootstrap-tooltip.js
 //@depends vendors/bootstrap/bootstrap-modal.js
+//@depends vendors/bootstrap/bootstrap-popover.js
 
 //@depends anahita/InfinitScroll.js
 //@depends anahita/gadget.js
 //@depends anahita/checkbox.js
 //@depends anahita/autosubmit.js
-//@depends anahita/viewer.js
+//@depends anahita/notifications.js
 //@depends anahita/paginator.js
 
 //@depends anahita/actions/vote.js
