@@ -40,7 +40,7 @@
         
         _getPage: function(event) {
             
-        	var a = $(event.target);
+            var a = $(event.target);
             var self = this;
             var currentEntities = $(this.element).prev(this.options.entities);
             
@@ -54,8 +54,8 @@
             		
             		//self._updateHash(a.attr('href'));
             		
-            		var entities = $(response).filter('.an-entities');
-                    var pagination = $(response).filter('.pagination');
+                    var entities = $(response).find('.an-entities');
+                    var pagination = $(response).find('.pagination');
                     
                     pagination.paginator();
             		
